@@ -12,14 +12,7 @@ Este proyecto permite buscar códigos o descripciones dentro de múltiples archi
 - 🔊 Reproduce un sonido cuando la búsqueda finaliza (requiere archivo de audio `terminado.mp3`)
 - 🧹 Botón para limpiar los resultados
 - ⚠️ Alertas cuando los campos están vacíos
-
-## 📂 Estructura del Proyecto
-
-📁 tu-proyecto/
-├── buscar.html
-├── terminado.mp3 # (debes agregar este archivo tú mismo)
-└── README.md
-
+- 
 ## 🧠 Cómo usar
 
 1. Abre el archivo `buscar.html` en tu navegador.
