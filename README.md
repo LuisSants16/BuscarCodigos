@@ -12,7 +12,7 @@ Este proyecto permite buscar códigos o descripciones dentro de múltiples archi
 - 🔊 Reproduce un sonido cuando la búsqueda finaliza (requiere archivo de audio `terminado.mp3`)
 - 🧹 Botón para limpiar los resultados
 - ⚠️ Alertas cuando los campos están vacíos
-- 
+
 ## 🧠 Cómo usar
 
 1. Abre el archivo `buscar.html` en tu navegador.
@@ -32,10 +32,6 @@ No se necesita instalación. Todo se ejecuta directamente en el navegador. Sin e
 
 - [SheetJS (xlsx)](https://github.com/SheetJS/sheetjs)
 - [Mammoth.js](https://github.com/mwilliamson/mammoth.js)
-
-## 🔊 Nota sobre el sonido
-
-Debes agregar manualmente un archivo de sonido llamado `terminado.mp3` en el mismo directorio. Puedes usar cualquier sonido corto que desees, como una notificación o alerta. Por ejemplo, puedes descargar uno desde [https://mixkit.co/free-sound-effects/](https://mixkit.co/free-sound-effects/)
 
 ## 📃 Licencia
 
