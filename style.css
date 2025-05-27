@@ -310,3 +310,104 @@ body.modo-claro #toggle-modo:hover {
 .cancelar-btn:hover {
   background: #b52c3a;
 }
+
+/* ========== MODO RESPONSIVO ========== */
+@media (max-width: 768px) {
+
+  body {
+    padding: 10px;
+    font-size: 16px;
+  }
+
+  .container {
+    padding: 15px;
+    border-radius: 8px;
+  }
+
+  h2 {
+    font-size: 20px;
+  }
+
+  input,
+  button,
+  .file-label,
+  .btn-ver {
+    font-size: 14px;
+    padding: 8px 12px;
+  }
+
+  .botonera {
+    grid-template-columns: 1fr;
+    gap: 0px;
+  }
+
+  .botonera button{
+    margin: 6px 0;
+  }
+
+  #toggle-modo {
+    width: 100%;
+    font-size: 16px;
+  }
+
+  #file-name {
+    display: block;
+    margin-top: 8px;
+    margin-left: 0;
+    font-size: 14px;
+  }
+
+  .resultado-item {
+    font-size: 14px;
+    padding: 10px;
+  }
+
+  .modo-btn {
+    position: static;
+    margin: 10px 0;
+    width: 100%;
+  }
+
+  #resultado,
+  #resultadoDescripcion {
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+  .resultado-item {
+    width: 100%;
+    box-sizing: border-box;
+  }
+}
+
+@media (max-width: 480px) {
+  h2 {
+    font-size: 18px;
+  }
+
+  input,
+  button,
+  .file-label,
+  .btn-ver {
+    font-size: 13px;
+    padding: 7px 10px;
+  }
+
+  .loader-text {
+    font-size: 16px;
+    text-align: center;
+  }
+
+  .cancelar-btn {
+    font-size: 13px;
+    padding: 6px 10px;
+  }
+
+  .modo-btn {
+    font-size: 14px;
+  }
+
+  mark {
+    font-size: inherit;
+  }
+}
